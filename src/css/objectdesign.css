@@ -1,0 +1,73 @@
+/*Banner*/
+.imgShow{
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    background-image: url("../img/indexBg.jpeg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.imgShow section{
+    position: absolute;
+     color: azure;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+    }
+
+.slogan{
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/*Card*/
+.card{
+    position: relative;
+    margin: 5px auto;
+    width: 350px;
+    height: 350px;
+    border: 5px solid var(--main);
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 20px var(--);
+
+}
+
+.cardTitle{
+  font-size: larger;
+  background-color: var(--main);
+  color: white;
+  padding: 5px 0px;
+  text-align: center;
+  width: 100%;
+}
+.cardImg{
+  width: 100%;
+  height: 200px;
+  margin: 15px 2px;
+  object-fit: contain;
+}
+.acResult{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+  background-color: var(--fourth);
+  color: var(--second);
+  font-weight: bold;
+
+}
+.card:last-child{
+  margin-bottom: 70px;
+}
