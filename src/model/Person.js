@@ -14,8 +14,6 @@ class Person{
     constructor(){
         this.firstName="Lam";
         this.lastName = "Ka Yik";
-        this.address = "Room 1108 , 11/f , blk 6, Kwai Shing West East Kwai Chung, NT";
-        this.Phone="51151473";
         this.position="Frontend programmer";
     }
     introduce=()=>{
