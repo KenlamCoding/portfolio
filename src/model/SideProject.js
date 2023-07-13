@@ -45,6 +45,12 @@ class SideProject {
                 'projectIcon': 'Portfolio.png',
                 'description': 'This website!',
                 'url': ''
+            }, , {
+                'techniques': ['html5', 'css', "react.js"],
+                'projectName': 'TodoList',
+                'projectIcon': 'TodoList.jpg',
+                'description': 'A todolist for encouraging me to meet targets. ',
+                'url': 'https://kenlamcoding.github.io/todolist/'
             },
         ]
     }
