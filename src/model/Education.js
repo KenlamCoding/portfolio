@@ -47,25 +47,39 @@ class Education {
   }
   getStudying = () => {
     return(
-      <>
+      <div className='centeredSection'>
         {
          this.studying.map((work,index) => {
                   let url = work.iconShortcut;
                   return(
-                    <div key={'education'+index} className='card'>
-                      <h5 className='cardTitle'>{work.degree}</h5>
-                      <img src = {
-                        require('../img/educationIcon/' + url)
-                      }
-                      className = 'cardImg'
-                      alt={work.degree}
-                      />
-                      <div className='acResult'>{work.gpa}</div>
+                    <div className = 'centered' >
+                      <h4 className='centeredTitle'>{work.degree }</h4>
+                      <div className='centeredResult'>{work.gpa}</div>
+                     
                     </div>
                   );
                 })
-        }
-      </>
+        } 
+        <div className = 'centeredHeroImg' > 
+         {
+         this.studying.map((work,index) => {
+                  let url = work.iconShortcut;
+                  return(
+                    <>
+                      <img src = {
+                        require('../img/educationIcon/' + url)
+                      }
+                      className = 'centeredHeroImg'
+                      alt = {
+                        work.degree
+                      }
+                      />
+                    </>
+                  );
+                })
+        } 
+        </div>
+      </div>
     )
     
   }

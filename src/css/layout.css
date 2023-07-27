@@ -127,7 +127,7 @@ h5{
     }
 
 @media (max-width:576px){
-    
+
 }
 @media (max-width:768px){
     .gridContainer{
@@ -143,6 +143,35 @@ h5{
         margin: 0px auto;
         overflow-y: scroll;
     
+    }
+    
+    .centeredHeroImg:nth-child(1) {
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        left: 25%;
+        top: -650px;
+        object-fit: contain;
+    }
+
+    .centeredHeroImg:nth-child(2) {
+
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        left: -75%;
+        top: -200px;
+        object-fit: contain;
+    }
+
+    .centeredHeroImg:nth-child(3) {
+
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        right: -70%;
+        top: -30%;
+        object-fit: contain;
     }
     
 }

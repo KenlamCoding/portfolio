@@ -67,7 +67,7 @@ function Content() {
           }
           <div  id = 'Education' >
             <h3 className='subtitle1'>Education</h3>
-            <div className = 'gridContainer' >
+            <div className = '' >
               {
                 education.getStudying()
               }

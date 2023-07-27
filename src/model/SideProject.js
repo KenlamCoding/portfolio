@@ -45,12 +45,18 @@ class SideProject {
                 'projectIcon': 'Portfolio.png',
                 'description': 'This website!',
                 'url': ''
-            }, , {
+            }, {
                 'techniques': ['html5', 'css', "react.js"],
                 'projectName': 'TodoList',
                 'projectIcon': 'TodoList.jpg',
                 'description': 'A todolist for encouraging me to meet targets. ',
                 'url': 'https://kenlamcoding.github.io/todolist/'
+            }, {
+                'techniques': ['html5', 'css', "react.js"],
+                'projectName': 'loveworking',
+                'projectIcon': 'loveworking.png',
+                'description': 'A weather app with Hong Kong Observatory API.',
+                'url': 'https://kenlamcoding.github.io/loveWorking/'
             },
         ]
     }
