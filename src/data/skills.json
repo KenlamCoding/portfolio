@@ -1,0 +1,57 @@
+[{
+    "skill": "HTML5",
+    "imgurl": "html5.png",
+    "level": 8
+}, {
+    "skill": "CSS",
+    "imgurl": "css.png",
+    "level": 8
+}, {
+    "skill": "Javascript",
+    "imgurl": "javascript.jpg",
+    "level": 8
+}, {
+    "skill": "Bootstrap",
+    "imgurl": "bootstrap.jpg",
+    "level": 7
+}, {
+    "skill": "jQuery",
+    "imgurl": "jquery.png",
+    "level": 7
+}, {
+    "skill": "React.js",
+    "imgurl": "reactjs.png",
+    "level": 8
+}, {
+    "skill": "Java",
+    "imgurl": "java.png",
+    "level": 7
+}, {
+    "skill": "PHP",
+    "imgurl": "php.jpg",
+    "level": 7
+}, {
+    "skill": "Python",
+    "imgurl": "python.png",
+    "level": 7
+}, {
+    "skill": "Powershell",
+    "imgurl": "powershall.png",
+    "level": 6
+}, {
+    "skill": "jsp",
+    "imgurl": "jsp.png",
+    "level": 5
+}, {
+    "skill": "c++",
+    "imgurl": "cpp.png",
+    "level": 5
+}, {
+    "skill": "MySQL",
+    "imgurl": "mysql.png",
+    "level": 6
+}, {
+    "skill": "Junit",
+    "imgurl": "junit.png",
+    "level": 6
+}]

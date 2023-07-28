@@ -80,57 +80,6 @@ h5{
     color: var(--third);
     line-height: 50px;
 }
-.cityu{
-    background-color: var(--ive1-light);
-    width: fit-content;
-    padding: 15px;
-    border-radius:15px ;
-    margin: 15px auto;
-}
-.cityu h3,
-.ive h3 {
-    margin: 15px 25px 10px 25px;
-    color: var(--cityu);
-
-}
-.cityu h4{
-    display: inline;
-    border-bottom: 5px solid var(--cityu);
-}
-.ive{
-    background-color: var(--cityu-light);
-    width: fit-content;
-    padding: 15px;
-    border-radius:15px;
-    margin: 15px;
-}
-
-.ive h3 {
-    color: var(--ive1);
-}
-
-.ive h4 {
-    display: inline;
-    border-bottom: 5px solid var(--ive1);
-}
-
-.cityu h4,
-.ive  h4{
-   color:white;
-}
-
-.detailPerson{
-    width: 40%;
-    border-radius: 15px;
-    color: aliceblue;
-    margin: 25px 0px;
-    padding: 15px;
-    background-color: var(--main);
-}
-
-.detailPerson h4{
-    padding: 15px 0px;
-}
 
 
 

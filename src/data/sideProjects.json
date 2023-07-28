@@ -1,0 +1,55 @@
+[{
+    "techniques": ["html5", "css"],
+    "projectName": "myProjectTree",
+    "projectIcon": "sideProjectTree.png",
+    "description": "Creating a website like linktree for containing the websites I create ",
+    "url": "https://billrushproject.github.io/sideProjectTree/sideProject.html"
+}, {
+    "techniques": ["html5", "css", "javascript"],
+    "projectName": "Timer for exercise",
+    "projectIcon": "Time.png",
+    "description": "The website offers functions which offer the Circuit Training Timer and countdown timer",
+    "url": "https://billrushproject.github.io/sideProjectTree/timer.html"
+}, {
+    "techniques": ["html5", "css", "javascript", "jquery"],
+    "projectName": "27thcadsSeika",
+    "projectIcon": "seika.png",
+    "description": "A system for information giving to the members of student societies ",
+    "url": "https://seika27cads.github.io/27thcadsSeika/index.html"
+}, {
+    "techniques": ["html5", "css", "javascript", "firebase"],
+    "projectName": "BookingSystem_ONight_Dgame",
+    "projectIcon": "onight.png",
+    "description": "A management system for handling detective game.",
+    "url": "https://billrushproject.github.io/ONightCamera/index.html"
+}, {
+    "techniques": ["html5", "css", "javascript"],
+    "projectName": "What time is it?",
+    "projectIcon": "WTII.png",
+    "description": "A Web digital clock",
+    "url": "https://billrushproject.github.io/WhatTimeIsIt/"
+}, {
+    "techniques": ["html5", "css", "javascript"],
+    "projectName": "AllGame",
+    "projectIcon": "AllGame.png",
+    "description": "A website offers detail of party games",
+    "url": "https://billrushproject.github.io/game/"
+}, {
+    "techniques": ["html5", "css", "react.js"],
+    "projectName": "Portfolio",
+    "projectIcon": "Portfolio.png",
+    "description": "This website!",
+    "url": ""
+}, {
+    "techniques": ["html5", "css", "react.js"],
+    "projectName": "TodoList",
+    "projectIcon": "TodoList.jpg",
+    "description": "A todolist for encouraging me to meet targets. ",
+    "url": "https://kenlamcoding.github.io/todolist/"
+}, {
+    "techniques": ["html5", "css", "react.js"],
+    "projectName": "loveworking",
+    "projectIcon": "loveworking.png",
+    "description": "A weather app with Hong Kong Observatory API.",
+    "url": "https://kenlamcoding.github.io/loveWorking/"
+}]

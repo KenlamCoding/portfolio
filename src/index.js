@@ -17,7 +17,7 @@ import './css/objectdesign.css';
 import Navbar from './component/Navbar';
 import Content from './component/Content';
 import reportWebVitals from './reportWebVitals';
-
+import Footer from './component/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>

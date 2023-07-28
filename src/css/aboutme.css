@@ -1,0 +1,89 @@
+.cityu {
+    background-color: var(--ive1-light);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px auto;
+}
+
+.cityu h3,
+.ive h3 {
+    margin: 15px 25px 10px 25px;
+    color: var(--cityu);
+
+}
+
+.cityu h4 {
+    display: inline;
+    border-bottom: 5px solid var(--cityu);
+}
+
+.ive {
+    background-color: var(--cityu);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.ive h3 {
+    color: var(--ive1-light);
+}
+
+.ive h4 {
+    display: inline;
+    border-bottom: 5px solid var(--ive1);
+}
+
+.cityu h4,
+.ive h4 {
+    color: whitesmoke;
+}
+
+.detailPerson {
+    width: 40%;
+    border-radius: 15px;
+    color: aliceblue;
+    margin: 25px 0px;
+    padding: 15px;
+    background-color: var(--main);
+}
+
+.detailPerson h4 {
+    padding: 15px 0px;
+}
+@media (max-width:576px) {}
+
+@media (max-width:768px) {
+
+
+
+
+
+}
+
+@media (max-width:1000px) {
+
+}
+
+@media (max-width:1200px) {
+    .flexRowContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .detailPerson {
+        width: 100%;
+    }
+
+    .aboutMe {
+        width: 70%;
+        margin: 15px auto;
+    }
+
+
+}
+
+@media (max-width:1400px) {}
