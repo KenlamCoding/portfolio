@@ -56,8 +56,9 @@
   object-fit: contain;
 }
 .acResult{
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  padding: 15px 0px;
   text-align: center;
   background-color: var(--fourth);
   color: var(--second);
@@ -69,6 +70,7 @@
 .centered{
   text-align: center;
   margin: 25px;
+  border: 3px solid var(--main);
   box-shadow: 5px 5px 50px var(--main);
   padding: 15px 10px;
   border-radius: 15px;
@@ -81,18 +83,26 @@
   margin: 150px auto;
   height: 500px;
 }
+.centeredTitle{margin-bottom: 15px;}
+.centeredResult{
+  margin: 25px 10px;
+  padding: 5px;
+  display: inline;
+  border-bottom: 3px solid var(--third);
+}
 .centeredHeroImg{
   position: absolute;
   height: 200px;
   width: 100%;
   object-fit: contain;
 }
+
 .centeredHeroImg:nth-child(1) {
   position: absolute;
   height: 200px;
   width: 100%;
   left: 65%;
-  top: -650px;
+  top: -750px;
   object-fit: contain;
   transform: rotate(-5deg);
   transition: 1s ease-in;
@@ -104,7 +114,7 @@
   width: 100%;
   left: -85%;
   top: -200px;
-  transform: rotate(-10deg);
+  transform: rotate(10deg);
   transition: 1s ease-in;
   object-fit: contain;
 }
@@ -113,7 +123,7 @@
   position: absolute;
   height: 200px;
   width: 100%;
-  right: -80%;
+  right: -70%;
   top: 0%;
   transform: rotate(10deg);
   transition: 5s linear;

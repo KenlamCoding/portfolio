@@ -17,7 +17,28 @@ class Person{
         this.position="Frontend programmer";
     }
     introduce=()=>{
-        return `A fresh grade student at City University of Hong Kong Degree in Computer Science and Higher Diploma  in Software Engineering graduated with professional training seeking an entry-level position in the information technology industry which will utilize the organizational and communication skills developed through my industrial experience.`;
+        return (
+        <div className = "flexRowContainer " >
+            <div>
+                <div className="cityu">
+                    <h3 className="cityuColor">City University of Hong Kong  </h3>
+                    <h4>Degree in Computer Science </h4>
+                </div>
+                <div className="ive">
+                    <h3 className="">Hong Kong institue of Vocational Education  </h3>
+                    <h4>Higher Diploma in Software Engineering</h4>
+                </div>
+               
+                
+               
+                
+            </div>
+            <div className = "detailPerson" >
+                 <h4>A fresh graduate student👨‍💻</h4>
+                 <div className="aboutMe">Seeking an entry-level position in the information technology industry which will utilize the organizational and communication skills developed through my industrial experience.</div>
+            </div>
+            
+        </div>)
     }
 }
 export default Person;

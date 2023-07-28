@@ -24,23 +24,22 @@ class Experience {
       "employer": "Hong Kong Housing Authority",
       "start": "Sep, 2021",
       "end": "Jun, 2022",
-      "descriptions": ['Network Team Network security Management of Network servers','Offer aid about network security controls for ISO auditing.','Programming for handling system logs with power-shell script']
+      "descriptions": ['Network security Management of Network servers',
+       'Offer aid about network security controls for ISO auditing',
+        'Programming for handling system logs with power-shell script']
     }, 
   ]
   }
   printExperience=()=>{
-    return(<div>
+    return ( <div className = 'flexRowContainer' >
       {
         this.works.map((work,index)=>{
                   return(
-                  <div key = {
-                    'work' + index
-                  }
-                  className = 'contentText' >
+                  <div key = {'work' + index} className = 'contentText experienceItem' >
                     <div className='flexRowContainer'>
-                      <h5 className='subtitle2'>{work.title} ({work.start}-{work.end})</h5>
-                      </div>
-                    
+                      <h5 className='subtitle2'>{work.title}</h5>
+                      <h6>({work.start}-{work.end})</h6>
+                    </div>
                     <div className='description'>
                       {
                         work.descriptions.map((d)=>{

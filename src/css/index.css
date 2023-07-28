@@ -15,7 +15,15 @@ body {
   --second:#352820;
   --third:#bb7c51;
   --fourth:#9aa6a2;
+
+  --cityu:#b82166;
+   --cityu-light:#e483ad;
+  --ive1:#00b2d5;
+  --ive1-light:#64b8c9;
+  
+  
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

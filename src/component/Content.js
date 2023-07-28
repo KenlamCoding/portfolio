@@ -54,7 +54,7 @@ function Content() {
           <div id = 'aboutme' >
             <h3 className='subtitle1'>About me</h3>
             <div>
-              <div className = 'contentText ' >
+              <div className = 'contentText' >
                 {person.introduce()}
               </div>
             </div>
@@ -92,7 +92,7 @@ function Content() {
             */
           }
           <div id = 'CodingSkill' >
-            <h3 className='subtitle'>Coding Skill</h3>
+            <h3 className='subtitle1'>Coding Skill</h3>
             <div className='gridContainer'>{
               skill.print()
             }</div>
@@ -116,9 +116,7 @@ function Content() {
                   sideProject.printSideProject()
                 }
             </div>
-            
           </div>
-          
           <Footer/>
         </main>
         
