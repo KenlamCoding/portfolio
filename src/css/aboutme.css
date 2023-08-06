@@ -37,7 +37,7 @@
 
 .cityu h4,
 .ive h4 {
-    color: whitesmoke;
+    color: var(--smokewhite);
 }
 
 .detailPerson {
@@ -55,10 +55,6 @@
 @media (max-width:576px) {}
 
 @media (max-width:768px) {
-
-
-
-
 
 }
 

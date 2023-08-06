@@ -22,7 +22,7 @@ export default function sideProjects(){
                                         {
                                             sideproject.techniques.map((technique,index)=>{
                                                 return(
-                                                    <div className='techName'>{technique}</div>
+                                                    <div className='techName' key={sideproject.projectName+technique}>{technique}</div>
                                                     )   
                                             })
                                         }

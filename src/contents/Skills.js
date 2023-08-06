@@ -1,36 +1,40 @@
 import data from "../data/skills.json";
 export default function Skills(){
-    let printLevel = (levelshow) => {
+    let printLevel = (skill,levelshow) => {
         const box=[];
+        let nullBoxIndex = 0;
         for (let i = 0; i < levelshow; i++){
-            box.push(<div className='box'></div>)
+            box.push(<div className='box' key={"skill"+"box"+i}></div>)
         }
+
         while (box.length<10){
-            box.push(<div className='boxNull'></div>)
+            box.push(<div className='boxNull' key={"skill"+"null"+(nullBoxIndex)}></div>)
+            nullBoxIndex++;
         }
         return box;
     }
+
 return(
     <div id = 'CodingSkill' >
         <h3 className='subtitle1'>Coding Skill</h3>
         <div className='gridContainer'>
             {
                 data.map((coding, index) => {
-                let url = coding.imgurl;
                 return (
-                <div key = {'coding' + index} className = 'card' >
-                    <h5 className='cardTitle'>{coding.skill}</h5>
+                <div className = 'card' key = {coding.skill} >
+                     <h5 className='cardTitle'>{coding.skill}</h5>
                     <div> 
-                        < img src = {require('../img/codingSkillIcon/' + url)}
+                        <img src = {require('../img/codingSkillIcon/' + coding.imgurl)}
                          className='cardImg' alt = {coding.skill}/>
                     </div>
-
+                    
                     <div className = 'flexColContainer' >
-                        <div >Familiar with : </div>
+                        <div className="cardTitle">Familiar with : </div>
+
                         <div className = 'levelContainer' >
-                            {printLevel(coding.level)}
+                            {printLevel(coding.skill,coding.level)} 
                         </div>
-                    </div>
+                    </div> 
                 </div>
                 );
             })}

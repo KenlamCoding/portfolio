@@ -5,15 +5,15 @@
     justify-content: space-around;
     width: 300px;
     height: 100vh;
-    background-color:whitesmoke;
+    background-color:var(--smokewhite);
 }
 
 .leftNavItem div,.rightNavItem div{
-    border: 1px solid black;
+    border: 1px solid var(--black);
     border-radius: 5px;
     padding: 15px 20px;
     margin: 15px 30px; 
-    background: linear-gradient(to right, var(--main) 50%, white 50%);
+    background: linear-gradient(to right, var(--main) 50%, var(--white) 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
@@ -28,7 +28,7 @@
 
 .navbar a{
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
 
 .leftNavItem>div:hover a{
@@ -38,7 +38,12 @@
 
 .leftNavItem div a:hover{
     text-decoration: none;
-    color: white;
+    color: var(--white);
+}
+.darkmode{
+    cursor: pointer;
+    border-radius: 50%;
+    margin: auto;
 }
 @keyframes navShow{
 
@@ -74,11 +79,11 @@
         flex-direction: row;
     }
     .leftNavItem div,.rightNavItem div{
-        border: 1px solid black;
+        border: 1px solid var(--black);
         height: fit-content;
         padding: 15px 20px;
         margin: 15px 30px; 
-        background: linear-gradient(to right, var(--main) 50%, white 50%);
+        background: linear-gradient(to right, var(--main) 50%, var(--white) 50%);
         background-size: 200% 100%;
         background-position: right bottom;
         transition: all .5s ease-out;

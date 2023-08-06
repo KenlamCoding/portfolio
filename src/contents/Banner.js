@@ -6,7 +6,6 @@ export default function Banner(){
         */
     }
     return(
-        
         <div className='imgShow'>
             <section>
                 <h1  className = '' >

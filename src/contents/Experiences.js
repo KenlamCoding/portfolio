@@ -7,15 +7,15 @@ export default function Experiences(){
                 {
                     data.map((work, index) => {
                             return(
-                            <div key = {'work' + index} className = 'contentText experienceItem' >
-                                <div className='flexRowContainer'>
-                                <h5 className='subtitle2'>{work.title}</h5>
-                                <h6>({work.start}-{work.end})</h6>
+                            <div key = {'work'+index} className = 'contentText experienceItem' >
+                                <div className='flexRowContainer' >
+                                    <h5 className='subtitle2'>{work.title}</h5>
+                                    <h6>({work.start}-{work.end})</h6>
                                 </div>
                                 <div className='description'>
                                 {
-                                    work.descriptions.map((d)=>{
-                                    return (<div>{d}</div>)
+                                    work.descriptions.map((d,dIndex)=>{
+                                    return (<div key={work.title+dIndex}>{d}</div>)
                                     })
                                 }
                                 </div>

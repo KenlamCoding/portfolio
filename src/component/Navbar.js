@@ -3,7 +3,7 @@
     * @author           : admin
     * @group            : 
     * @created          : 08/05/2023 - 11:03:29
-    * 
+
     * MODIFICATION LOG
     * - Version         : 1.0.0
     * - Date            : 08/05/2023
@@ -12,11 +12,31 @@
 **/
 import React from 'react';
 import '../css/navBar.css';
-//import Person from '../model/Person';
-//const person=new Person();
-function Navbar() {
+import {
+    useTheme,
+    useThemeUpdate
+} from '../hook/ThemeContext';
+import Theme from "./Theme"
+            
+export default function Navbar() {
+    const dark = useTheme()
+    const toggleTheme = useThemeUpdate()
+    const themeStyles = {
+        backgroundColor: dark ? 'var(--dark-white)' : 'var(--white)',
+        color: dark ? 'var(--white)' : 'var(--black)'
+    }
+    
+    if (dark) {
+        document.body.style.backgroundColor = "var(--dark-smokeWhite)";
+        document.body.style.color = "var(--dark-black)";
+    }else{
+        document.body.style.backgroundColor = "var(--smokeWhite)";
+        document.body.style.color = "var(--black)";
+    }
+
     return(
-    <div className="navbar">
+    <div className = "navbar"
+        style = {themeStyles} >
         <div className='leftNavItem'>
             <div>
                 <a href="#Education">EDUCATION</a>
@@ -34,11 +54,9 @@ function Navbar() {
                 
             </div>
         </div>
-        <div className = 'rightNavItem'>
-            
-        </div>
+        <Theme />
+        
         
     </div>
     );
 }
-export default Navbar;

@@ -14,16 +14,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import './css/objectdesign.css';
-import Navbar from './component/Navbar';
-import Content from './component/Content';
+import App from "./component/App";
+
 import reportWebVitals from './reportWebVitals';
-import Footer from './component/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
     <React.StrictMode>
         <div className='container'>
-            <Navbar />
-            <Content />
+            <App/>
         </div>
     </React.StrictMode>
 );

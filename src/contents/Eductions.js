@@ -8,10 +8,13 @@ return (
                 data.map((work, index) => {
                         let url = work.iconShortcut;
                         return(
-                            <div className = 'centered' >
-                            <h4 className='centeredTitle'>{work.degree }</h4>
-                            <div className='centeredResult'>{work.gpa}</div>
-                            
+                            <div className = 'centered'
+                            key = {
+                                "education"+index
+                            } >
+                                <h4 className='centeredTitle'>{work.degree }</h4>
+                                <div className='centeredResult'>{work.gpa}</div>
+                                
                             </div>
                         );
                         })
@@ -21,7 +24,6 @@ return (
                 data.map((work, index) => {
                         let url = work.iconShortcut;
                         return(
-                            <>
                             <img src = {
                                 require('../img/educationIcon/' + url)
                             }
@@ -29,8 +31,10 @@ return (
                             alt = {
                                 work.degree
                             }
+                            key = {
+                                "img"+index
+                            }
                             />
-                            </>
                         );
                         })
                 } 
