@@ -46,11 +46,11 @@ export default function Navbar() {
                 
             </div>
             <div>
-                <a href = "#CodingSkill" > CODING SKILL </a>
+                <a href = "#CodingSkill" > SKILL </a>
                 
             </div>
             <div>
-                <a href = "#SideProject" > SIDE PROJECT </a>
+                <a href = "#SideProject" > SIDEPROJECT </a>
                 
             </div>
         </div>

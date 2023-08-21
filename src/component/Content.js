@@ -25,17 +25,15 @@ import Footer from './Footer';
 function Content() {
   return (
     <div className="content">
-        
-        <main >
-          <Banner />
-          <Introduction/>
-          <Eductions/>
-          <Experiences/>
-          <Skills/>
-          <SideProjects/>
-          <Footer/>
-        </main>
-        
+      <main>
+        <Banner />
+        <Introduction/>
+        <Eductions/>
+        <Experiences/>
+        <Skills/>
+        <SideProjects/>
+        <Footer/>
+      </main>
     </div>
   );
 }

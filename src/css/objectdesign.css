@@ -64,6 +64,9 @@
   color: var(--second);
   font-weight: bold;
 }
+.acResult > div{
+  margin: 2px 5px;
+}
 .card:last-child{
   margin-bottom: 70px;
 }

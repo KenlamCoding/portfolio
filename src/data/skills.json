@@ -7,51 +7,63 @@
     "imgurl": "css.png",
     "level": 8
 }, {
-    "skill": "Javascript",
-    "imgurl": "javascript.jpg",
-    "level": 8
-}, {
-    "skill": "Bootstrap",
-    "imgurl": "bootstrap.jpg",
-    "level": 7
-}, {
-    "skill": "jQuery",
-    "imgurl": "jquery.png",
-    "level": 7
-}, {
     "skill": "React.js",
     "imgurl": "reactjs.png",
-    "level": 8
+    "level": 7
+}, {
+    "skill": "Javascript",
+    "imgurl": "javascript.jpg",
+    "level": 7
 }, {
     "skill": "Java",
     "imgurl": "java.png",
-    "level": 7
+    "level": 8
 }, {
     "skill": "PHP",
     "imgurl": "php.jpg",
-    "level": 7
+    "level": 6
 }, {
     "skill": "Python",
     "imgurl": "python.png",
-    "level": 7
-}, {
-    "skill": "Powershell",
-    "imgurl": "powershall.png",
     "level": 6
 }, {
-    "skill": "jsp",
+    "skill": "Nextjs",
+    "imgurl": "nextjs.png",
+    "level": 6
+}, {
+    "skill": "Jsp",
     "imgurl": "jsp.png",
     "level": 5
+}, {
+    "skill": "jQuery",
+    "imgurl": "jquery.png",
+    "level": 6
 }, {
     "skill": "c++",
     "imgurl": "cpp.png",
     "level": 5
 }, {
+    "skill": "MongoDB",
+    "imgurl": "mongodb.png",
+    "level": 6
+}, {
     "skill": "MySQL",
     "imgurl": "mysql.png",
-    "level": 6
+    "level": 7
 }, {
     "skill": "Junit",
     "imgurl": "junit.png",
-    "level": 6
+    "level": 5
+}, {
+    "skill": "Powershell",
+    "imgurl": "powershall.png",
+    "level": 5
+}, {
+    "skill": "Tailwind",
+    "imgurl": "tailwind.jpg",
+    "level": 7
+}, {
+    "skill": "Bootstrap",
+    "imgurl": "bootstrap.jpg",
+    "level": 7
 }]

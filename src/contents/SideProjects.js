@@ -15,9 +15,6 @@ export default function sideProjects(){
                                 alt = {sideproject.projectName}/>
                             </a>
                             <div className = 'acResult' >
-                                    <div >
-                                        {sideproject.description}
-                                    </div>
                                     <div className = '.flexRowContainer-jc-l' >
                                         {
                                             sideproject.techniques.map((technique,index)=>{
@@ -26,6 +23,9 @@ export default function sideProjects(){
                                                     )   
                                             })
                                         }
+                                    </div>
+                                    <div >
+                                        {sideproject.description}
                                     </div>
                             </div>
                             

@@ -22,6 +22,10 @@ h5{
 h5{
     font-size: 22px;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 .flexRowContainer{
     display:flex;
     flex-direction:row;
@@ -65,7 +69,6 @@ h5{
     padding: 15px 10px;
     line-height: 30px;
     text-align: center;
-    min-height: 400px;
 
 }
 /*paragraph Title*/
@@ -93,12 +96,12 @@ h5{
     display: inline-block;
     border: 5px solid var(--main);
     background-color: var(--main);
-    color: var(--white);
+    color: white;
     border-radius: 15px;
 }
 .companyName{
     padding: 3px 3px;
-    color: var(--black);
+    color: white;
     margin: 10px 0px 10px auto ;
 }
 .techName{
@@ -106,6 +109,7 @@ h5{
     margin: 5px 5px; ;
 }
 .description{
+    /*Unchange with dark mode*/
     width: 90%;
     line-height: 40px;
     margin: 15px auto;
