@@ -9,13 +9,29 @@
     background-position: center;
     background-size: cover;
 }
+
 .imgShow section{
     position: absolute;
      color: azure;
      top: 40%;
      left: 50%;
      transform: translate(-50%,-50%);
-    }
+     animation: fadeout 2s linear;
+}
+
+/*Animation */
+@keyframes fadeout{
+  0% {opacity: 0;
+    top: 0%;
+    left: 50%;
+  }
+   100% {
+    opacity: 1;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+}
 
 .slogan{
     background-color: var(--white);
@@ -55,6 +71,7 @@
   margin: 15px 2px;
   object-fit: contain;
 }
+
 .acResult{
   position: absolute;
   bottom: 0;
@@ -91,7 +108,6 @@
   margin: 25px 10px;
   padding: 5px;
   display: inline;
-  border-bottom: 3px solid var(--third);
 }
 .centeredHeroImg{
   position: absolute;
@@ -99,6 +115,8 @@
   width: 100%;
   object-fit: contain;
 }
+
+
 
 .centeredHeroImg:nth-child(1) {
   position: absolute;
@@ -132,7 +150,26 @@
   transition: 5s linear;
   object-fit: contain;
 }
+.fadeIn{
+  animation: fadeInAnimation 2s linear ;
+}
+.fadeInTop{
+  animation: fadeInTopAnimation 1s linear ;
+}
 
+@keyframes fadeInAnimation {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes fadeInTopAnimation{
+  0%{opacity: 0;
+    transform: translate(0px, 100px);
+  }
+  100%{opacity: 1;
+  transform: translate(0px, 0px);
+  }
+}
 
 @media (max-width:700px) {
   .centeredHeroImg {

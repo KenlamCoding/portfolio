@@ -1,3 +1,9 @@
+/* Show all css layout OutLine 
+
+*{
+    outline: dashed red;
+} 
+*/
 h1,h2,h3,h4,h5,h6{margin: 0px;}
 
 h1{
@@ -26,9 +32,19 @@ h5{
     width: 0px;
 }
 
+#aboutme,
+#Education,
+#Experience,
+#CodingSkill,
+#SideProject{
+padding: 5px 10%;
+margin: 0px 15px;
+}
+
 .flexRowContainer{
     display:flex;
     flex-direction:row;
+    gap: 5px;
     justify-content:center;
 
 }
@@ -56,7 +72,7 @@ h5{
     width: 100%;
     display: flex;
     flex-direction: column;
-    max-width: 1300px;
+    max-width: max-content;
     margin: 0px auto;
     overflow-y: scroll;
    
@@ -88,7 +104,7 @@ h5{
 
 /*Experience*/
 .experienceItem{
-    width:40% ;
+    width:70% ;
     border: 4px solid var(--main);
 }
 .companyName,.techName{
@@ -143,12 +159,46 @@ h5{
     text-align:center;
     flex-grow:1; 
 }
+.card:hover{
 
+    box-shadow: 15px 15px 50px var(--main);
+}
+
+.typingShow{
+    filter: blur(5px);
+  width: 22ch;
+  animation:  blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  
+}
+
+.typingShow:hover{
+    filter: blur(0px);
+    cursor: pointer;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 @media (max-width:576px){
 
 }
 @media (max-width:768px){
-    
+    #aboutme,
+    #Education,
+    #Experience,
+    #CodingSkill,
+    #SideProject {
+        padding: 5px 5%;
+        margin: 0px 15px;
+    }
+
     .gridContainer{
         display: grid;
         grid-template-columns:  1fr!important;
@@ -158,7 +208,7 @@ h5{
         width: 100%;
         display: flex;
         flex-direction: column;
-        max-width: 1300px;
+        max-width: max-content;
         margin: 0px auto;
         overflow-y: scroll;
     }
@@ -201,9 +251,10 @@ h5{
         width: 100%;
         display: flex;
         flex-direction: column;
-        max-width: 1300px;
+        max-width: max-content;
         margin: 0px auto;
         overflow-y: scroll;
+        overflow-x: hidden;
     
     }
     .experienceItem {
@@ -233,5 +284,4 @@ h5{
     }
 }
 @media (max-width:1400px){
-    
 }

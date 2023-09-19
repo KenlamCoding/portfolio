@@ -4,6 +4,10 @@
     padding: 15px;
     border-radius: 15px;
     margin: 15px auto;
+    
+}
+.cityUActive{
+    animation: leftFadeIn 2s ease-in;
 }
 
 .cityu h3,
@@ -24,6 +28,7 @@
     padding: 15px;
     border-radius: 15px;
     margin: 15px;
+    
 }
 
 .ive h3 {
@@ -33,6 +38,9 @@
 .ive h4 {
     display: inline;
     border-bottom: 5px solid var(--ive1);
+}
+.iveActive {
+    animation: rightFadeIn 2s ease-in alternate;
 }
 
 .cityu h4,
@@ -47,10 +55,16 @@
     margin: 25px 0px;
     padding: 15px;
     background-color: var(--main);
+    
+    
 }
+/**/
 
 .detailPerson h4 {
     padding: 15px 0px;
+}
+.detailPersonAction{
+    animation: topFadeIn 2s ease-in alternate;
 }
 @media (max-width:576px) {}
 
@@ -83,3 +97,38 @@
 }
 
 @media (max-width:1400px) {}
+
+/*Animation*/
+@keyframes leftFadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(-500px, 0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes rightFadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(500px, 0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes topFadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(0px, 200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}

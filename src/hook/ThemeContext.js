@@ -11,7 +11,7 @@ export function useTheme(){
 
 }
 export function useThemeUpdate() {
-    return useContext(ThemeUpdateContext)
+    return useContext(ThemeUpdateContext) 
 }
 export function useThemeUpdateColor() {
     return useContext(ThemeUpdateColor)

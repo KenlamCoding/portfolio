@@ -35,6 +35,7 @@ function Content() {
         <Footer/>
       </main>
     </div>
+    
   );
 }
 
