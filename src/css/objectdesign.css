@@ -101,7 +101,6 @@
   width: auto;
   max-width: 500px;
   margin: 150px auto;
-  height: 500px;
 }
 .centeredTitle{margin-bottom: 15px;}
 .centeredResult{
@@ -180,7 +179,6 @@
     width: auto;
     max-width: 500px;
     margin: 15px auto;
-    height: 500px;
   }
 }
 
