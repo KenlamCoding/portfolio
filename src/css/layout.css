@@ -75,7 +75,7 @@ margin: 0px 15px;
     max-width: max-content;
     margin: 0px auto;
     overflow-y: scroll;
-   
+    overflow-x: hidden;
 }
 .contentText{
     font-size: larger;
@@ -263,7 +263,7 @@ filter: blur(5px);
     }
     
 }
-@media (max-width:1200px){
+@media (max-width:1400px){
     .flexRowContainer {
         display: flex;
         flex-direction: column;
@@ -271,6 +271,7 @@ filter: blur(5px);
 
     }
     .detailPerson {
+        padding: 5px;
         width: 100%;
     }
     .aboutMe{
@@ -281,6 +282,4 @@ filter: blur(5px);
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-}
-@media (max-width:1400px){
 }
